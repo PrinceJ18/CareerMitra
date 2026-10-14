@@ -1,187 +1,203 @@
-# CareerMitra
-
 # CareerMitra 🎓
-### AI-Enabled Career Counselling & Family Decision Support
+
+### AI-Powered Career Guidance, Built Around the Student and Family
 
 **Your Career. Your Family. One Clearer Decision.**
 
-CareerMitra is an AI-enabled career guidance and family decision-support platform designed for the Indian education system. It helps students explore suitable career pathways using their interests, skills, academic background, personal aspirations, and assessments while giving families a structured way to express their concerns and participate in career decisions.
+CareerMitra is an AI-enabled career guidance and decision-support platform designed to help students discover career possibilities, understand their strengths, explore real-world opportunities, and make informed decisions with their families.
 
-Unlike conventional career quizzes that focus primarily on rankings, CareerMitra aims to bring student aspirations and family expectations together through personalized assessments, career research, and evidence-based decision support.
+By combining personalized student profiles, structured self-assessments, career exploration, family perspectives, and AI-assisted research, CareerMitra aims to bridge the gap between what students aspire to become and what families need to understand before supporting that journey.
 
-> **Smart India Hackathon 2026**
->
-> - **Problem Statement ID:** SIH26241
-> - **Theme:** Smart Education
-> - **Category:** Software
-> - **Team:** Code Combat
-> - **Team ID:** 123380
+Career decisions should not be reduced to a test score, a salary estimate, or someone else's expectations. CareerMitra is built around a different principle: **help students explore their ambitions, understand the realities, and make better-informed decisions together.**
 
 ---
 
-## 📌 Table of Contents
+## 📑 Contents
 
-- [The Problem](#-the-problem)
-- [Our Solution](#-our-solution)
+- [Why CareerMitra?](#-why-careermitra)
+- [Our Approach](#-our-approach)
 - [Key Features](#-key-features)
 - [The CareerMitra Journey](#-the-careermitra-journey)
 - [The Non-Negotiable Dream Career](#-the-non-negotiable-dream-career)
+- [Who Is CareerMitra For?](#-who-is-careermitra-for)
 - [Technology Stack](#-technology-stack)
-- [System Architecture](#-system-architecture)
+- [Architecture](#-architecture)
 - [Getting Started](#-getting-started)
 - [AI Configuration](#-ai-configuration)
-- [Current Implementation and Limitations](#-current-implementation-and-limitations)
-- [Future Scope](#-future-scope)
-- [Team](#-team)
+- [Current Implementation Status](#-current-implementation-status)
+- [Roadmap](#-roadmap)
+- [Privacy and Security](#-privacy-and-security)
+- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
 
-## 🎯 The Problem
+## 🎯 Why CareerMitra?
 
-Career decisions can be challenging for students and families, particularly when personal interests, academic performance, financial constraints, employment prospects, and family expectations do not align.
+Choosing a career is one of the most consequential decisions in a student's life. Yet the process can be confusing, especially when personal interests, academic performance, financial circumstances, family expectations, and employment prospects point in different directions.
 
-Common challenges include:
+Students may experience:
 
-- **Limited self-awareness:** Students may struggle to identify their interests, strengths, and suitable career pathways.
-- **Family disagreements:** Students and parents may have different expectations about education, financial stability, location, and long-term career prospects.
-- **Incomplete career information:** Students may not understand qualification requirements, educational pathways, costs, or employment opportunities.
-- **Overreliance on rankings:** A test result or recommendation may fail to reflect a student's individual aspirations.
-- **Lack of structured discussion:** Career disagreements can become subjective arguments instead of informed conversations.
+- **Uncertainty about their strengths:** Difficulty identifying interests, skills, and suitable career paths.
+- **Information gaps:** Limited understanding of qualifications, educational pathways, costs, and employment opportunities.
+- **Conflicting expectations:** Differences between a student's ambitions and their family's concerns about financial stability or long-term prospects.
+- **Pressure from conventional choices:** A tendency to prioritize familiar career paths without adequately exploring alternatives.
+- **Unclear next steps:** Difficulty converting a career aspiration into a practical education and skill-development plan.
 
-CareerMitra aims to address these challenges by making career exploration a structured, student-centred, and collaborative process.
+CareerMitra aims to bring these considerations into one structured process, helping students and families move from uncertainty toward informed exploration.
 
-## 💡 Our Solution
+## 💡 Our Approach
 
-CareerMitra combines student profiling, a Personal Vault, assessments, career-option analysis, family feedback, and career research in one guided workflow.
-
-The platform is built around four stages:
+CareerMitra follows a four-stage framework:
 
 **UNDERSTAND → ASSESS → INVOLVE → EXPLORE**
 
-- **Understand:** Capture the student's academic background, interests, preferences, skills, and aspirations.
-- **Assess:** Use a personalized question-based assessment to explore Holland RIASEC traits and reasoning.
-- **Involve:** Enable family members to review the student's information and communicate their concerns through a structured workflow.
-- **Explore:** Compare career pathways, examine the student's dream career, and identify potential areas of agreement.
+### 1. Understand
 
-The goal is not to let an algorithm decide a student's future. It is to support more informed discussions and better-understood career choices.
+Build a clearer picture of the student through their educational background, interests, hobbies, preferred subjects, skills, career preferences, and personal aspirations.
+
+### 2. Assess
+
+Use structured questions and prototype assessment logic to explore personality-related preferences, Holland RIASEC traits, and reasoning.
+
+### 3. Involve
+
+Give family members a structured way to understand the student's interests, communicate their concerns, and participate in career discussions.
+
+### 4. Explore
+
+Examine potential career pathways, investigate the student's dream career, and identify areas of agreement and disagreement that deserve further consideration.
+
+The objective is not to automate a life decision. It is to make the decision-making process more informed, transparent, and collaborative.
 
 ---
 
 ## ✨ Key Features
 
-### 👤 1. Stage-Adaptive Student Profile
+### 👤 1. Personalized Student Profile
 
-Collects student information according to their educational stage, supporting:
+CareerMitra supports different educational stages so that career exploration can reflect a student's current circumstances.
 
-- Class 6–10 students.
-- Students choosing a stream after Class 10.
-- Students exploring higher education after Class 12.
-- Undergraduate students.
-- Graduates.
-- Postgraduate students.
+Supported profile stages include:
 
-The profile includes relevant academic and personal information to help contextualize career exploration.
+- Class 6–10.
+- After Class 10.
+- After Class 12.
+- Undergraduate.
+- Graduate.
+- Postgraduate.
+
+Profile fields adapt to the selected stage and can include relevant academic information, educational goals, and personal details.
 
 ### 🗂️ 2. Personal Vault
 
-A structured space for students to record their individual preferences and supporting information.
+The Personal Vault acts as a structured record of a student's interests, preferences, skills, and aspirations.
 
-The Personal Vault includes:
+It includes:
 
 - Interests and hobbies.
 - Personal likes and preferences.
 - Subject strengths and self-assessments.
 - Preferred career roles and sectors.
+- Skills and supporting certificate files.
 - Chosen fields and reasons for choosing them.
 - Alternative career interests.
-- Skills and supporting certificate files.
 - Non-Negotiable Dream Career.
 
-Vault information is used to contextualize assessment questions and career exploration.
+This information provides context for assessment questions and career exploration rather than treating every student as having the same needs.
 
 ### 🧠 3. AI Test Zone
 
-An interactive assessment designed around the student's profile and Personal Vault.
+The Test Zone provides an interactive, 25-question multiple-choice assessment.
 
-Current implementation includes:
+Its implemented question framework covers:
 
-- A 25-question multiple-choice assessment.
-- Personality and situational questions.
-- Questions grounded in interests and preferences.
-- Basic reasoning and subject-related questions.
-- Holland RIASEC trait tallying.
-- Local question-generation fallback when AI services are unavailable.
+- Personality-related preferences.
+- Situational responses.
+- Interests and preferences.
+- Basic reasoning.
+- Subject and skill-related questions.
+- Career opinions and trade-offs.
 
-The assessment uses prototype-level heuristic scoring. It is intended to support self-exploration, not to replace a professionally validated psychometric assessment.
+The prototype calculates Holland RIASEC trait tallies and a separate reasoning score. AI-assisted question generation is also implemented in the code, with a local question-generation fallback.
 
-### 🧭 4. Options Analyser
+**Important:** The assessment uses prototype-level heuristic logic. It has not been established as a professionally validated psychometric instrument and should not be used as the sole basis for high-stakes educational or career decisions.
 
-Presents career-option cards to help students explore and compare potential pathways.
+### 🧭 4. Career Options Analyser
 
-Depending on available data and AI responses, career information can cover:
+The Options Analyser presents career-option cards intended to help students investigate and compare potential pathways.
 
-- Career suitability indicators.
-- Connections with recorded interests and preferences.
-- Potential benefits and challenges.
+Depending on the available career data and successful AI responses, the information can cover:
+
+- Career fit indicators.
+- Connections to student interests and preferences.
+- Potential advantages and challenges.
 - Educational and qualification pathways.
-- Indicative pay ranges and market considerations.
 - Relevant skills and certifications.
+- Indicative earning ranges.
+- Market considerations and future outlook.
 - Alternative career options.
-- Important verification considerations.
+- Practical cautions and areas requiring verification.
 
-AI-generated career recommendations depend on successful backend integration and external model availability.
+The quality and availability of AI-dependent recommendations depend on backend configuration and external service availability.
 
 ### ⭐ 5. Non-Negotiable Dream Career
 
-CareerMitra gives the student's chosen dream career its own dedicated place in the decision-making process.
+**A student's ambition should not disappear simply because an assessment ranks another career more highly.**
 
-The platform is designed to keep this aspiration separate from test-ranked career recommendations. Students can examine the practical realities of their chosen career without automatically having that aspiration replaced by a higher-scoring alternative.
+CareerMitra gives the student's chosen dream career a dedicated place in the application, separate from test-ranked career recommendations.
 
-Where the relevant AI research integration is operational, the platform can retrieve career-related information and source links to support further investigation.
+This feature is designed to help students:
+
+- Preserve their stated aspirations during career exploration.
+- Investigate educational requirements and practical pathways.
+- Understand possible challenges, costs, and opportunities.
+- Consider family concerns without automatically surrendering their personal goals.
+
+The platform aims to encourage realistic planning without treating a student's ambition as something an algorithm should silently replace.
 
 ### 👨‍👩‍👧 6. Family Panel
 
-The Family Panel provides a structured way for family members to participate in career discussions.
+Career decisions often involve the people who provide emotional, educational, and financial support. The Family Panel is designed to make their participation more structured.
 
 Implemented workflows include:
 
 - Family profile entry.
-- Student linking-code workflow.
-- Review of student information.
-- A satisfaction rating from 1 to 10.
-- A questionnaire for expressing concerns when further discussion is needed.
-- Recording family responses for subsequent analysis.
+- Student linking-code entry.
+- Reviewing student information.
+- Recording satisfaction on a scale of 1–10.
+- Answering a structured questionnaire about concerns.
+- Saving responses for subsequent analysis.
 
-**Current limitation:** Student and family records are stored in browser-local storage. Consequently, the current implementation does not provide genuine cross-device family collaboration.
+The current implementation uses browser-local storage. Family linking therefore does not provide genuine synchronization between separate devices.
 
-### 🤝 7. Scorecard & Common Ground Analysis
+### 🤝 7. Scorecard and Common Ground Analysis
 
-Combines available student and family information to identify potential areas of agreement and disagreement.
+The Scorecard combines available student and family information to highlight potential areas of agreement and disagreement.
 
-The implementation includes:
+The prototype includes:
 
 - A combined student-family scorecard.
 - Analysis of family concerns across multiple dimensions.
 - Career-option comparison logic.
-- Explicit handling of conflicting concerns.
-- A mechanism for avoiding unsupported recommendations when sufficient evidence is unavailable.
+- Identification of conflicting concerns.
+- A mechanism to avoid forcing unsupported career recommendations into the common-ground results.
 
-The resulting analysis is a prototype decision-support aid, not a guarantee that a career will be successful or suitable.
+The resulting analysis is a decision-support aid, not a guarantee of career suitability, admission, employment, or financial success.
 
-### 🔬 8. AI-Assisted Career Research
+### 🔎 8. AI-Assisted Career Research
 
-The backend contains an integration with OpenRouter for AI requests and a Bing RSS-based search mechanism for retrieving career-related information.
+The backend contains an OpenRouter integration for AI requests and a Bing RSS-based search mechanism for retrieving career-related information.
 
-The research logic is designed to prioritize relevant Indian educational and regulatory sources where applicable and associate findings with retrieved source URLs.
+The research logic is designed to prioritize relevant Indian educational and regulatory sources where applicable and associate research findings with retrieved source URLs.
 
-Live research requires the backend to be deployed correctly and configured with a valid API key. Its availability is subject to external services and model limitations.
+This functionality requires a correctly configured backend and working external services. Live research and source quality have not been independently verified for every workflow.
 
 ### 🧪 9. Interactive Demo Mode
 
-A demonstration workflow allows judges and testers to explore sample student and family journeys without having to populate every field manually.
+An in-memory demonstration workflow allows users to explore sample student and family journeys.
 
-Demo information is illustrative and should not be interpreted as real user data or measured project outcomes.
+Demo data is illustrative. It should not be interpreted as real user information, verified assessment outcomes, or evidence of measured impact.
 
 ---
 
@@ -193,7 +209,7 @@ flowchart TD
     B --> C[AI Test Zone]
     C --> D[Assessment Results]
     B --> E[Non-Negotiable Dream Career]
-    D --> F[Options Analyser]
+    D --> F[Career Options Analyser]
     G[Family Panel] --> H[Family Satisfaction]
     H --> I[Family Concern Questionnaire]
     F --> J[Scorecard and Analysis]
@@ -202,70 +218,68 @@ flowchart TD
     J --> K[Explore Career Pathways]
 ```
 
-The workflow is designed to connect student aspirations, assessment findings, family perspectives, and career information without treating any single score as the final answer.
+The workflow connects student preferences, assessment findings, family perspectives, and career information while keeping the student's personal aspirations visible throughout the process.
 
 ---
 
 ## 🌟 The Non-Negotiable Dream Career
 
-One of CareerMitra's defining design principles is that **a student's dream career should not be silently replaced by an algorithmic ranking**.
+CareerMitra is built around an important distinction: **career assessment should inform a student's choices, not automatically dictate them.**
 
-The platform treats the student's chosen career as a separate consideration rather than automatically treating it as the correct answer to an assessment.
+The Non-Negotiable Dream Career is stored and presented separately from test-ranked roles. The application also contains logic to examine the student's chosen career against practical realities and family concerns.
 
-This approach supports three goals:
+This reflects three core principles:
 
-1. **Respect personal ambition:** Preserve the student's stated aspiration as an explicit part of the decision.
-2. **Encourage informed exploration:** Examine qualifications, pathways, opportunities, risks, and other practical considerations.
-3. **Support family dialogue:** Consider family concerns alongside the student's aspirations rather than allowing either side to dominate automatically.
+1. **Student agency:** Personal aspirations deserve explicit consideration.
+2. **Informed exploration:** Ambition should be supported by an understanding of qualifications, costs, opportunities, and challenges.
+3. **Constructive family dialogue:** Concerns should be examined openly rather than ignored or allowed to automatically override the student's preferences.
 
-CareerMitra is intended to help students make informed decisions, not make those decisions on their behalf.
+CareerMitra aims to help students and families evaluate possibilities together without promising that any single career path is risk-free.
+
+---
+
+## 👥 Who Is CareerMitra For?
+
+CareerMitra is designed around several groups involved in educational and career decisions.
+
+| Audience | Intended value |
+|---|---|
+| School students | Explore interests and understand possible educational directions |
+| Students after Class 10 | Compare academic streams and vocational alternatives |
+| Students after Class 12 | Explore higher education and career pathways |
+| Undergraduate students | Investigate specializations, skills, and career opportunities |
+| Graduates | Consider employment, further studies, and alternative pathways |
+| Postgraduate students | Explore specialist, research, and industry options |
+| Parents and guardians | Understand student aspirations and express practical concerns |
+| Career educators | Explore a structured framework for student-family career discussions |
+
+These are intended audiences; effectiveness across these groups has not yet been established through formal user studies.
 
 ---
 
 ## 🛠️ Technology Stack
 
-The current repository uses a lightweight, framework-free frontend with a separate AI integration handler.
+The current repository uses a lightweight, framework-free frontend and a separate AI integration handler.
 
 | Layer | Technology | Purpose |
 |---|---|---|
-| Frontend structure | HTML5 | Application screens and markup |
-| Styling | CSS3 | Responsive interface, themes, and layouts |
-| Frontend logic | Vanilla JavaScript (ES6+) | State, navigation, validation, assessments, and interactions |
-| Browser persistence | LocalStorage and SessionStorage | Local user records, application state, and session data |
-| Client-side cryptography | Web Crypto API | PBKDF2 password-hashing implementation |
-| Backend runtime | Node.js-compatible serverless handler | AI requests and career-research processing |
+| Frontend | HTML5 | Application structure and screens |
+| Styling | CSS3 | Layout, responsive styling, and themes |
+| Application logic | Vanilla JavaScript (ES6+) | State, navigation, validation, assessments, and interactions |
+| Browser storage | LocalStorage and SessionStorage | Local application records and session data |
+| Cryptographic API | Web Crypto API | Client-side PBKDF2 password-hashing implementation |
+| Backend | Node.js-compatible serverless handler | AI requests and research processing |
 | AI gateway | OpenRouter API | AI-assisted assessments and analysis |
 | Web research | Bing RSS search | Retrieval of career-related search results |
-| Intended hosting | Vercel | Frontend hosting and serverless API deployment |
+| Intended hosting | Vercel | Frontend and serverless API deployment |
 
-**Note:** React, Vite, Tailwind CSS, and a remote database are not part of the current repository implementation described in the audit.
+The current implementation does not use React, Vite, Tailwind CSS, or a remote cloud database.
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ Architecture
 
-The current architecture consists of two primary source files.
-
-```mermaid
-flowchart TB
-    U[Student or Family User]
-    FE[Frontend: index.html]
-    LS[(Browser LocalStorage)]
-    API[Serverless Handler: api-ai.js]
-    OR[OpenRouter AI API]
-    BING[Bing RSS Search]
-
-    U <--> FE
-    FE <--> LS
-    FE -->|POST /api/ai| API
-    API --> OR
-    OR --> API
-    API --> BING
-    BING --> API
-    API --> FE
-```
-
-### Repository Structure
+The repository currently consists of two principal application files.
 
 ```text
 CareerMitra/
@@ -274,7 +288,38 @@ CareerMitra/
 └── README.md     # Project documentation
 ```
 
-The application currently stores user records and family-linking information locally in the browser. The AI handler is intended to run as a serverless function and communicate with external services.
+### System Overview
+
+```mermaid
+flowchart TB
+    U[Student or Family User]
+    FE[Frontend: index.html]
+    DB[(Browser LocalStorage)]
+    API[Serverless Handler: api-ai.js]
+    AI[OpenRouter AI API]
+    WEB[Bing RSS Search]
+
+    U <--> FE
+    FE <--> DB
+    FE -->|POST /api/ai| API
+    API <--> AI
+    API <--> WEB
+    API --> FE
+```
+
+### Frontend
+
+The frontend is a single-page application implemented using native HTML, CSS, and JavaScript. It includes custom rendering, application state, navigation, form validation, assessment logic, family workflows, and local persistence.
+
+### Backend and External Services
+
+The `api-ai.js` file contains the serverless handler intended to process AI requests and retrieve career-related search results.
+
+Its operation depends on external service credentials, serverless deployment configuration, and service availability.
+
+### Data Storage
+
+The application currently stores user and family records in browser storage. There is no shared cloud database or remote synchronization layer in the audited repository.
 
 ---
 
@@ -283,9 +328,9 @@ The application currently stores user records and family-linking information loc
 ### Prerequisites
 
 - A modern web browser.
-- A local HTTP server for browser-based development, recommended for testing.
-- Node.js if using the optional local server command below.
-- An OpenRouter API key if testing AI features through a correctly configured backend.
+- Node.js and npm for the optional local HTTP server.
+- An OpenRouter API key for AI-dependent functionality.
+- A compatible serverless environment for testing the backend.
 
 ### 1. Clone the Repository
 
@@ -296,9 +341,9 @@ cd CareerMitra
 
 ### 2. Run the Frontend
 
-For a quick UI preview, open `index.html` in your browser.
+For a quick interface preview, open `index.html` in a modern browser.
 
-Alternatively, if Node.js and npm are installed, start a temporary static server:
+Alternatively, start a local static server:
 
 ```bash
 npx serve .
@@ -306,102 +351,150 @@ npx serve .
 
 Open the local URL printed by the command.
 
-**Important:** Running the HTML frontend by itself does not establish that the `/api/ai` backend is operational. AI-dependent functionality requires a correctly configured serverless deployment or local backend environment.
+**Note:** A static server can display the frontend, but it does not automatically configure the `/api/ai` backend. AI-dependent workflows require a functioning backend deployment or compatible local serverless setup.
+
+### 3. Configure the Backend
+
+The serverless handler requires environment configuration for OpenRouter. See the next section.
+
+Before deploying, verify the API route configuration and the server's module/runtime setup. The current repository audit identified missing serverless routing and package configuration that may prevent the AI endpoint from working as intended.
 
 ---
 
 ## 🔑 AI Configuration
 
-The backend is designed to use the following environment variables:
+The backend is designed to use these environment variables:
 
-| Variable | Required | Purpose |
+| Variable | Required | Description |
 |---|---|---|
-| `OPENROUTER_API_KEY` | Yes, for AI requests | Authenticates requests to OpenRouter |
+| `OPENROUTER_API_KEY` | Yes, for AI requests | Secret key used to authenticate with OpenRouter |
 | `OPENROUTER_MODEL` | No | Overrides the configured default AI model |
-| `SITE_URL` | No | Provides the application URL for request metadata |
+| `SITE_URL` | No | Application URL used for request metadata |
 
-Never commit API keys or other credentials to the repository.
+Keep all API keys and secrets outside source control. Do not embed private credentials in frontend JavaScript or commit them to GitHub.
 
-### Backend Deployment Note
+### Deployment Considerations
 
-The current audit identified a deployment configuration issue: `api-ai.js` is located in the repository root, while the frontend requests `/api/ai`.
+The frontend calls `/api/ai`, while the current `api-ai.js` file is located in the repository root. A standard Vercel setup generally expects serverless functions under an `api/` directory unless routing is configured explicitly.
 
-A standard Vercel deployment generally expects serverless functions inside the `api/` directory, unless suitable routing is configured. The repository also lacks a `package.json` and `vercel.json` in its audited state.
+The repository audit also found no `package.json` or `vercel.json`.
 
-Therefore, the API routing and module configuration should be corrected and tested before claiming that the deployed AI functionality is operational.
+These configuration gaps should be resolved and the deployed endpoint tested before considering AI functionality production-ready.
 
 ---
 
-## ⚠️ Current Implementation and Limitations
+## 📊 Current Implementation Status
 
-CareerMitra is a functional prototype, but some production requirements remain outstanding.
+CareerMitra is an evolving prototype. The following table distinguishes implemented application flows from capabilities that still require development or verification.
 
-| Area | Current status |
+| Capability | Current status |
 |---|---|
-| Student profile and Personal Vault | Implemented using browser-local storage |
-| Assessment interface and RIASEC scoring | Implemented with prototype-level heuristic logic |
-| Career-option interface | Implemented; AI-dependent results require backend availability |
+| Student profiles | Implemented with local storage |
+| Personal Vault | Implemented with local storage |
+| Assessment interface | Implemented |
+| Holland RIASEC tallying | Implemented using prototype heuristics |
+| AI-generated assessments | Backend code exists; live operation requires verification |
+| Career-option interface | Implemented; AI-dependent content requires backend availability |
 | Dream career evaluation | Dedicated implementation exists |
-| Family concern collection | Implemented in the local application |
-| Cross-device family linking | Not supported by the current local-storage architecture |
-| AI-assisted career research | Backend code exists; deployment and live integration require verification |
-| Cloud database synchronization | Not implemented |
-| Automated psychometric validation | Not established |
-| Backup download | Audit identified a browser compatibility defect requiring correction |
-| Production security and privacy | Further engineering and validation required |
+| Family questionnaire | Implemented locally |
+| Cross-device family collaboration | Not implemented |
+| AI-assisted live career research | Backend code exists; deployment and live behavior require verification |
+| Shared cloud database | Not implemented |
+| Backup download | Existing implementation has a browser compatibility defect identified in the audit |
+| Psychometric validation | Not established |
+| Production security review | Further work required |
 
-### Important Considerations
+### Known Limitations
 
-- **Local data:** Clearing browser data may remove locally stored application records.
-- **Family collaboration:** Student and family data are not synchronized through a shared remote database.
-- **AI availability:** External API rate limits, credentials, and model availability can affect AI-assisted workflows.
-- **Assessment interpretation:** RIASEC scores and other prototype calculations should not be treated as scientifically validated diagnoses.
-- **Career information:** Requirements, salary ranges, admissions, and employment prospects should be checked against authoritative and current sources.
-- **Privacy:** The current client-side storage and authentication approach requires further security review before production use with sensitive personal information.
-
----
-
-## 🗺️ Future Scope
-
-Potential development priorities include:
-
-1. **Cloud database integration:** Introduce secure server-side persistence for student and family records.
-2. **Cross-device collaboration:** Enable family members to connect through a secure linking mechanism across separate devices.
-3. **Deployment hardening:** Correct API routing, configure the serverless runtime, and verify production AI requests.
-4. **Security improvements:** Strengthen authentication, authorization, rate limiting, and protection of personal data.
-5. **Backup and recovery:** Repair and test data export and import workflows.
-6. **AI reliability:** Improve validation, source attribution, failure handling, and the reliability of generated career information.
-7. **Assessment evaluation:** Test the usefulness and fairness of prototype assessment logic before making stronger claims about career suitability.
-8. **Indian-language accessibility:** Explore support for Hindi and other Indian languages.
-9. **Institutional data integration:** Investigate reliable official data sources for admissions, qualifications, and career pathways.
-10. **Testing and quality assurance:** Add automated tests and end-to-end verification for important user journeys.
-
-These items represent potential future work, not claims of existing functionality.
+- **Browser-local data:** Records are tied to the browser's local storage and can be lost if that data is cleared.
+- **No cloud synchronization:** Student and family records cannot currently synchronize between separate devices.
+- **AI dependency:** AI-assisted features may be affected by credentials, service outages, rate limits, and model changes.
+- **Assessment limitations:** The scoring logic is a prototype and is not established as a validated psychometric assessment.
+- **Career information:** Salary estimates, qualifications, admission requirements, and employment prospects require verification against current, authoritative sources.
+- **Security limitations:** Client-side account and data storage require further security engineering before production use with sensitive personal information.
 
 ---
 
-## 👥 Team
+## 🗺️ Roadmap
 
-**Team Code Combat**
+The following are potential development priorities, not claims about existing functionality.
 
-- **Team ID:** 123380
-- **Project:** CareerMitra
-- **SIH Problem Statement:** SIH26241
+### Platform Foundation
+- [ ] Establish reliable backend routing and deployment configuration.
+- [ ] Add automated tests for important user journeys.
+- [ ] Improve error handling and runtime diagnostics.
+- [ ] Repair and verify data backup and recovery.
 
-CareerMitra is developed in the context of Smart India Hackathon 2026 under the Smart Education theme.
+### Data and Collaboration
+- [ ] Introduce secure server-side data persistence.
+- [ ] Enable authenticated student-family linking across devices.
+- [ ] Implement access controls for student and family records.
+- [ ] Improve account recovery and session management.
+
+### AI and Career Intelligence
+- [ ] Improve structured-output validation and failure handling.
+- [ ] Strengthen source attribution and career-information verification.
+- [ ] Add systematic evaluation of AI-generated career guidance.
+- [ ] Investigate authoritative education and career data integrations.
+
+### Accessibility and Quality
+- [ ] Explore support for Hindi and other Indian languages.
+- [ ] Improve accessibility and usability across devices.
+- [ ] Evaluate the usefulness and fairness of assessment logic.
+- [ ] Conduct structured user testing with students and families.
+
+---
+
+## 🔐 Privacy and Security
+
+CareerMitra handles information that can be personal and potentially sensitive, including academic records, interests, family concerns, and account information.
+
+The current prototype stores these records in browser-local storage and implements client-side password hashing. These mechanisms should not be interpreted as equivalent to a production-grade authentication and data-protection architecture.
+
+Until the platform receives further security engineering:
+
+- Avoid entering sensitive real-world information into public demonstrations.
+- Do not use real API keys in frontend code.
+- Do not commit credentials or private configuration files.
+- Treat AI-generated career information as a starting point for further research.
+- Verify educational, licensing, and employment requirements through authoritative sources.
+- Do not rely on prototype assessment results as the sole basis for consequential decisions.
+
+A future public release should include a security review, appropriate access controls, secure server-side persistence, data-retention policies, and clear privacy disclosures.
+
+---
+
+## 🤝 Contributing
+
+CareerMitra aims to evolve into a more useful, accessible, and reliable career guidance platform.
+
+Potential areas for contribution include:
+
+- Improving usability and accessibility.
+- Strengthening assessment and career-exploration logic.
+- Improving career-information quality and source attribution.
+- Developing secure family collaboration workflows.
+- Expanding educational and career resources.
+- Adding automated tests and documentation.
+
+Before submitting changes, review the current implementation and distinguish verified behavior from planned functionality.
+
+For substantial changes, open an issue or discussion first to describe the problem, proposed solution, and expected impact.
 
 ---
 
 ## 📄 License
 
-No license has been verified in the current repository. Until a license is added, the project should not be assumed to grant permission for unrestricted reuse, modification, or redistribution.
+No repository license has been verified in the current project state. Until a license is added, do not assume the repository grants permission for unrestricted reuse, modification, or redistribution.
 
 ---
 
-## ❤️ Our Vision
+## 🌱 Our Vision
 
-We believe career guidance should help students understand themselves, explore real opportunities, and have better conversations with their families.
+CareerMitra aims to make career guidance more personal, practical, and collaborative.
 
-**CareerMitra aims to make career decisions more informed, collaborative, and centred on the student's aspirations.**
+We believe students should have the space to explore their ambitions, families should have a constructive way to express their concerns, and career decisions should be informed by evidence rather than pressure or assumptions.
 
-*Your Career. Your Family. One Clearer Decision.*
+**A career decision should not simply tell a student what to become. It should help them understand what they want to become, what it takes to get there, and how to move forward with confidence.**
+
+**CareerMitra — Your Career. Your Family. One Clearer Decision.**
