@@ -91,7 +91,7 @@ Profile fields adapt to the selected stage and can include relevant academic inf
 
 ### 🗂️ 2. Personal Vault
 
-The Personal Vault acts as a structured record of a student's interests, preferences, skills, and aspirations.
+The Personal Vault acts as a structured record of a student's interests, preferences, skills,dreams and aspirations.
 
 It includes:
 
